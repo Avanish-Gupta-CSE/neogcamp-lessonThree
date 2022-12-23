@@ -1,20 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
 body{
-    color:red;
-}
-
-h1{
-    color: aqua;
-}
-
-h2{
-    color:violet;
-}
-
-#lib-header{ 
-    color: yellowgreen;
-
-}
-
-.para{
-    color: pink;
+    font-family: 'Open Sans', sans-serif;
 }
