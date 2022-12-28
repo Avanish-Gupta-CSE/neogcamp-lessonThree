@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 :root{
-    --primary-color:#4f46e5;
+    --primary-color:#22c55e;
 }
 
 body{
     font-family: 'Open Sans', sans-serif;
+}
+
+hr{
+    margin: 2rem 0rem;
 }
 
 /*  container  */
@@ -35,4 +39,15 @@ body{
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
+}
+
+/* lists */
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
 }
