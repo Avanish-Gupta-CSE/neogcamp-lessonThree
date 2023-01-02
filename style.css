@@ -2,6 +2,7 @@
 
 :root{
     --primary-color:#22c55e;
+    --dark-grey:#64748b;
 }
 
 body{
@@ -91,4 +92,15 @@ hr{
     display: block;
     margin: auto;
     
+ }
+
+ .hero .hero-heading
+ {
+    padding: 1rem;
+    color: var(--dark-grey);
+ }
+
+ .hero .hero-heading .heading-inverted
+ {
+    color: var(--primary-color);
  }
