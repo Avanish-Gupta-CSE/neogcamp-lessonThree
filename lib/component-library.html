@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Component Library</title>
+    
+    <!-- Way-1 : To apply CSS -->
+    <!-- <style>
+      body{
+        color: red;
+      }
+    </style> -->
+
+    <!-- Way-2: To apply CSS  -->
+    <link rel="stylesheet" href="../style.css">
+  </head>
+  <body>
+    
+    <!-- Way-2: To apply CSS -->
+    <!-- <h1 style="color:red">Avanish's Component Library</h1> -->
+    
+    <h1 id="lib-header">Avanish's Component Library</h1>
+    <p class="para">
+      Hi, I am going to make a library which would hold all my projects look
+      good and consistent.
+    </p>
+    <hr />
+
+    <h2>@typography</h2>
+    <h1>This is the biggest heading</h1>
+    <h2>This is the second biggest heading</h2>
+    <p>This is a normal which wil wrap at the end like a paragraph.</p>
+    <small class="para">This is relatively smaller text.</small>
+
+    <hr />
+    <h2>@container</h2>
+    <h3>fluid container</h3>
+    <div class = "container">
+      This is the fluid contatiner and it will go till the end of the page.
+    </div>
+
+    <h3># center container</h3>
+    <div class="container-center">
+      This is the centered contatiner and it will go till the specified width.
+    </div>
+
+    <hr />
+    <h2>@links</h2>
+    <a class = "link link-primary" href="/" >Primary Link</a> &nbsp;
+    <a class="link link-secondary" href="/">Secondary Link</a>
+
+    <hr />
+    <h2>@lists</h1>
+
+    <h3>unordered list</h3>
+    <p>This list will not have the bullet</p>
+    
+    <ul class="list-non-bullet">
+      <li>listItem-1</li>
+      <li>listItem-2</li>
+      <li>listItem-3</li>
+    </ul>
+
+    <h3>inline unordered list</h3>
+    <ul class="list-non-bullet">
+      <li>item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+    </ul>
+
+    <h3>reverse ordered list</h3>
+    <ol reversed>
+      <li>item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+    </ol> 
+
+    <hr>
+    <h2>@nav</h2>
+
+    <nav class="navigation container">
+      <div class="nav-brand">iAmBrand</div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link link-active" href="/">home</a>
+        </li>
+
+        <li class="list-item-inline">
+          <a class="link" href="/">products</a>
+        </li>
+
+        <li class="list-item-inline">
+          <a class="link" href="/">about</a>
+        </li>
+      </ul>
+    </nav>
+
+    <hr>
+    <h2>@header</h2>
+
+    <header class="hero">
+      <img class="hero-img" src="images/programming_Image.svg" alt="">
+      <img class="hero-img" src="https://media.licdn.com/dms/image/C5603AQHlD6sLHMeJZQ/profile-displayphoto-shrink_800_800/0/1626955233706?e=1677110400&v=beta&t=Q7-8sGtkNhxjdbDMVoVaocS7320AajcQgv3ogyLhxZ4" alt="Picture Loading...">
+      <!-- <h1 class="hero-heading">Avanish Gupta <span style="color: var(--primary-color);">the web developer</span></h1> -->
+      <h1 class="hero-heading">Avanish Gupta <span class="heading-inverted">the web developer</span></h1>
+
+    </header>
+
+    <hr>
+    <h2>@section</h2>
+
+    <section class="section">
+      <div class="container container-center">
+        <h1>white section</h1>
+        <p>
+          The aim of this area of MDN is not to take you from "beginner" to "expert" 
+          but to take you from "beginner" to "comfortable." From there, you should be 
+          able to start making your way, learning from the rest of MDN, and other intermediate 
+          to advanced resources that assume a lot of previous knowledge.
+        </p>
+      </div>
+    </section>
+
+    <section class="section ow">
+      <div class="container container-center">
+        <h1>off white section</h1>
+        <p>S
+          The aim of this area of MDN is not to take you from "beginner" to "expert" 
+          but to take you from "beginner" to "comfortable." From there, you should be 
+          able to start making your way, learning from the rest of MDN, and other intermediate 
+          to advanced resources that assume a lot of previous knowledge.
+        </p>
+      </div>
+    </section>
+
+    <hr>
+    <h2>@footer</h2>
+    <footer class="footer">
+      <!-- in footer , DONOT USE h1,h2 tags -->
+      <div class="footer-header">Some small heading inside footer</div>
+      <ul class="social-links list-non-bullet">
+        <li class="list-item-inline">
+          <a class="link" href="/">
+            socialOne
+          </a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/">
+            socialTwo
+          </a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/">
+            socialThree
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
+ 
